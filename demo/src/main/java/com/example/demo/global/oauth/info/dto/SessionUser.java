@@ -4,9 +4,11 @@ import com.example.demo.domain.user.domain.User;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 @Getter
 @NoArgsConstructor
-public class SessionUser {
+public class SessionUser implements Serializable {
     private String name;
     private String password;
     private String email;
