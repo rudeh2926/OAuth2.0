@@ -2,10 +2,7 @@ package com.example.demo.domain.user.domain;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Getter
 @AllArgsConstructor
@@ -22,4 +19,7 @@ public class User {
     private String password;
 
     private String name;
+
+    @Enumerated(EnumType.STRING)
+    private ProviderType providerType;
 }
