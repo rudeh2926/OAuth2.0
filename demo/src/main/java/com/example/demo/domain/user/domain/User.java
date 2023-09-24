@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Getter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
@@ -22,4 +23,8 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private ProviderType providerType;
+
+    public void updateName(String name) {
+        this.name = name;
+    }
 }
