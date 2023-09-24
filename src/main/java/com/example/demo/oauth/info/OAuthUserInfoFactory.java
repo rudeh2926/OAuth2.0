@@ -1,11 +1,10 @@
-package com.example.demo.global.oauth.info;
+package com.example.demo.oauth.info;
 
 import com.example.demo.domain.user.domain.ProviderType;
-import com.example.demo.global.oauth.info.impl.GoogleOAuthUserInfo;
-import com.example.demo.global.oauth.info.impl.KakaoOAuthUserInfo;
+import com.example.demo.oauth.info.impl.GoogleOAuthUserInfo;
+import com.example.demo.oauth.info.impl.KakaoOAuthUserInfo;
 import lombok.AllArgsConstructor;
 
-import javax.validation.constraints.Null;
 import java.util.Map;
 
 @AllArgsConstructor

@@ -1,4 +1,4 @@
-package com.example.demo.global.oauth.info;
+package com.example.demo.oauth.info;
 
 import lombok.AccessLevel;
 import lombok.Builder;

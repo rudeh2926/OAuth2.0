@@ -1,4 +1,4 @@
-package com.example.demo.global.oauth.info.dto;
+package com.example.demo.oauth.info.dto;
 
 import com.example.demo.domain.user.domain.User;
 import lombok.Getter;

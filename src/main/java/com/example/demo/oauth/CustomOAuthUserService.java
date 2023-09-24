@@ -1,11 +1,11 @@
-package com.example.demo.global.oauth;
+package com.example.demo.oauth;
 
 import com.example.demo.domain.user.domain.ProviderType;
 import com.example.demo.domain.user.domain.User;
 import com.example.demo.domain.user.domain.repository.UserRepository;
-import com.example.demo.global.oauth.info.OAuthUserInfo;
-import com.example.demo.global.oauth.info.OAuthUserInfoFactory;
-import com.example.demo.global.oauth.info.dto.SessionUser;
+import com.example.demo.oauth.info.OAuthUserInfo;
+import com.example.demo.oauth.info.OAuthUserInfoFactory;
+import com.example.demo.oauth.info.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
