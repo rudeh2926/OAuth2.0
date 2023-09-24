@@ -20,6 +20,5 @@ public class OAuthUserInfoFactory {
             default:
                 throw new IllegalArgumentException("Not");
         }
-
     }
 }
